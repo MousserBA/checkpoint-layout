@@ -187,7 +187,8 @@ h3{
     height: 1px;
     margin-top: 50px;
 }
-@media screen and (max-width: 320px){
-    .small-logo{
-        display: none;
-        }
+@media only screen and (max-width: 320px) {
+    .first-part {
+      background-color: lightblue;
+    }
+  }
