@@ -1,0 +1,193 @@
+.head-bar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-right: 220px;
+}
+.head-bar-right{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+.head-button{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.text2{
+    color: gray;
+}
+.text3{
+    color: gray;
+}
+.text1{
+color: #00b39b;
+}
+.text2:hover{
+    color: #00b39b;
+}
+.text3:hover{
+    color: #00b39b;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    margin-left: 220px;
+}
+.small-logo{
+        display: flex;
+        justify-content: center;   
+padding-top: 100px;
+    }
+.title{
+    text-align-last: center;
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.parag{
+    color: gray;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+.first-part{
+    display: flex;
+    margin-right: 210px;
+    margin-left: 210px;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: #00b39b;
+}
+.box2{
+    background-color: #3d83df;
+}
+.box3{
+    background-color:#747474 ;
+}
+.box1:hover{
+    background-color: #00b39bbb;
+}
+.box2:hover{
+    background-color: #3d83dfa6;
+}
+.box3:hover{
+    background-color: #747474de;
+}
+.box1, .box2, .box3{
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    height: 300px;
+    width: 250px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+} 
+.underbox{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    justify-content: space-between;
+}
+.gridbox{
+color: #00b39b;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 100px;
+}
+.button-underbox{
+    color: #747474;
+}
+.button-underbox:hover{
+    color: #00b39b;
+}
+.underbox2{
+    display: flex;
+    margin-left: 500px;
+    margin-right: 220px;
+    justify-content: space-between; 
+    margin-top: -20px;
+}
+.green-box{
+background-color: #e5faf8;
+display: flex;
+}
+.right-box{
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 220px;
+    border-radius: 10px;
+    align-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.white-box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 250px;
+    width: 220px;
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+}
+.left-box{
+    margin-left: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.whitebox{
+    color: #00b39b;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+    margin-left: 220px;
+    justify-self: center;
+}
+h3{
+    text-align: center;
+    padding-top: 30px;
+    color: #747474;
+}
+.button-blue{
+    text-align: center;
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    padding-left: 210px;
+    padding-right: 210px;
+    font-size: small;
+}
+.line{
+    background-color: #7474742f;
+    height: 1px;
+    margin-top: 50px;
+}
+@media screen and (max-width: 320px){
+    .small-logo{
+        display: none;
+        }
